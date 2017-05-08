@@ -1,0 +1,1202 @@
+23:00:21.893 Got a kill message. Killing runner.
+00:03:01.683 Got a kill message. Killing runner.
+00:03:05.699 Killing runner with PID:6184 forcefully
+01:20:36.931 Got a kill message. Killing runner.
+01:20:40.932 Killing runner with PID:7752 forcefully
+13:12:45.450 Got a kill message. Killing runner.
+13:12:49.454 Killing runner with PID:1404 forcefully
+13:32:29.513 Got a kill message. Killing runner.
+13:32:33.616 Killing runner with PID:5556 forcefully
+13:49:36.918 Got a kill message. Killing runner.
+13:49:40.940 Killing runner with PID:5696 forcefully
+13:53:41.646 Got a kill message. Killing runner.
+13:53:45.653 Killing runner with PID:2632 forcefully
+14:28:06.277 Checking updates...
+14:28:30.585 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:7 Step implementation not found => 'Navigate To "http://getgauge.io"'
+14:28:30.585 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:8 Step implementation not found => 'Go to Gauge Get Started Page'
+14:28:30.585 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:9 Step implementation not found => 'Ensure download section exists'
+14:28:32.644 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:28:32.644 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:28:32.644 Error Message: java.lang.NullPointerException
+14:28:32.644 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:28:34.099 Plugin [Html Report] with pid [6296] has exited
+14:28:34.407 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:28:34.407 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:28:34.407 
+Total time taken: 2.009s
+14:31:47.567 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:7 Step implementation not found => 'Navigate To "http://getgauge.io"'
+14:31:47.568 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:8 Step implementation not found => 'Go to Gauge Get Started Page'
+14:31:47.568 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:9 Step implementation not found => 'Ensure download section exists'
+14:31:47.947 Checking updates...
+14:31:48.807 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:31:48.830 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:31:48.830 Error Message: java.lang.NullPointerException
+14:31:48.830 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:31:48.956 Plugin [Html Report] with pid [4604] has exited
+14:31:49.156 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:31:49.156 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:31:49.156 
+Total time taken: 1.239s
+14:32:21.339 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:7 Step implementation not found => 'Navigate To "http://getgauge.io"'
+14:32:21.339 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:8 Step implementation not found => 'Go to Gauge Get Started Page'
+14:32:21.339 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:9 Step implementation not found => 'Ensure download section exists'
+14:32:22.593 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:32:22.593 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:32:22.593 Error Message: java.lang.NullPointerException
+14:32:22.593 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:32:22.804 Plugin [Html Report] with pid [6896] has exited
+14:32:22.905 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:32:22.905 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:32:22.905 
+Total time taken: 1.254s
+14:34:10.815 Checking updates...
+14:34:13.735 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:7 Step implementation not found => 'Navigate To "http://getgauge.io"'
+14:34:13.735 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:9 Step implementation not found => 'Ensure download section exists'
+14:34:14.955 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:34:14.955 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:34:14.955 Error Message: java.lang.NullPointerException
+14:34:14.955 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:34:15.067 Plugin [Html Report] with pid [5240] has exited
+14:34:15.295 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:34:15.295 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:34:15.295 
+Total time taken: 1.214s
+14:34:51.466 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:34:51.467 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:34:51.467 Error Message: java.lang.NullPointerException
+14:34:51.467 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:34:51.575 Plugin [Html Report] with pid [4716] has exited
+14:34:51.775 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:34:51.775 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:34:51.775 
+Total time taken: 1.405s
+14:43:31.608 Checking updates...
+14:43:38.003 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:43:38.003 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:43:38.003 Error Message: java.lang.NullPointerException
+14:43:38.003 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:43:38.107 Plugin [Html Report] with pid [6708] has exited
+14:43:38.308 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:43:38.308 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:43:38.308 
+Total time taken: 1.997s
+14:44:36.280 Checking updates...
+14:44:40.268 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:7 Step implementation not found => 'Navigate To "http://getgauge.io"'
+14:44:40.268 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:9 Step implementation not found => 'Ensure download section exists'
+14:44:41.408 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:44:41.408 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:44:41.409 Error Message: java.lang.NullPointerException
+14:44:41.409 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:44:41.515 Plugin [Html Report] with pid [5628] has exited
+14:44:41.721 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:44:41.721 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:44:41.721 
+Total time taken: 1.14s
+14:49:50.094 Got a kill message. Killing runner.
+14:49:54.097 Killing runner with PID:6648 forcefully
+14:54:23.699 No specifications found in C:/Users/rax/GaugeTutorial/specs/01 Get started.spec:0.
+14:54:24.436 Checking updates...
+14:54:27.700 Killing runner with PID:804 forcefully
+14:55:05.372 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:7 Step implementation not found => 'Navigate To "http://getgauge.io"'
+14:55:05.372 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:9 Step implementation not found => 'Ensure download section exists'
+14:55:06.370 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:55:06.370 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:55:06.370 Error Message: java.lang.NullPointerException
+14:55:06.370 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:55:06.677 Plugin [Html Report] with pid [3416] has exited
+14:55:06.721 Checking updates...
+14:55:06.877 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:55:06.877 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:55:06.877 
+Total time taken: 998ms
+14:58:02.557 Checking updates...
+14:58:06.648 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:9 Step implementation not found => 'Ensure download section exists'
+14:58:07.815 Error Message: java.lang.NoSuchFieldError: INSTANCE
+14:58:07.816 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:58:07.816 Error Message: java.lang.NullPointerException
+14:58:07.817 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:58:07.920 Plugin [Html Report] with pid [7072] has exited
+14:58:08.160 Specifications:	0 executed	0 passed	0 failed	0 skipped
+14:58:08.160 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+14:58:08.160 
+Total time taken: 1.167s
+15:00:26.424 Checking updates...
+15:00:30.435 [ValidationError] C:\Users\rax\GaugeTutorial\specs\01 Get started.spec:7 Step implementation not found => 'Na vigate To "http://getgauge.io"'
+15:00:31.548 Error Message: java.lang.NoSuchFieldError: INSTANCE
+15:00:31.548 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:00:31.548 Error Message: java.lang.NullPointerException
+15:00:31.548 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:00:31.659 Plugin [Html Report] with pid [5140] has exited
+15:00:31.860 Specifications:	0 executed	0 passed	0 failed	0 skipped
+15:00:31.860 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+15:00:31.860 
+Total time taken: 1.113s
+15:00:44.575 Checking updates...
+15:00:47.569 Error Message: java.lang.NoSuchFieldError: INSTANCE
+15:00:47.569 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:00:47.569 Error Message: java.lang.NullPointerException
+15:00:47.569 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:00:47.678 Plugin [Html Report] with pid [6436] has exited
+15:00:47.779 Specifications:	0 executed	0 passed	0 failed	0 skipped
+15:00:47.779 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+15:00:47.779 
+Total time taken: 1.222s
+15:06:06.695 Checking updates...
+15:06:09.651 Error Message: java.lang.NoSuchFieldError: INSTANCE
+15:06:09.651 Stacktrace: 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:146)
+org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:964)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:67)
+io.github.bonigarcia.wdm.WdmHttpClient.<init>(WdmHttpClient.java:52)
+io.github.bonigarcia.wdm.WdmHttpClient$Builder.build(WdmHttpClient.java:192)
+io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:158)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+driver.DriverFactory.Setup(DriverFactory.java:40)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:06:09.651 Error Message: java.lang.NullPointerException
+15:06:09.652 Stacktrace: 
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:06:09.757 Plugin [Html Report] with pid [5240] has exited
+15:06:09.957 Specifications:	0 executed	0 passed	0 failed	0 skipped
+15:06:09.957 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+15:06:09.957 
+Total time taken: 1.184s
+15:10:06.044 Checking updates...
+15:10:26.025 # Getting started with Gauge
+15:10:26.092 ## Get Started
+15:10:26.149 * Navigate To "http://getgauge.io"
+15:10:31.320 * Go to Gauge Get Started Page
+15:10:31.947 
+Failed Step: Go to Gauge Get Started Page
+15:10:31.947 Specification: specs\01 Get started.spec:8
+15:10:31.947 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Get Stared"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information); duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+15:10:31.947 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:147)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:113)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:415)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:200)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:225)
+org.openqa.selenium.By$ByLinkText.findElement(By.java:235)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:192)
+driver.Navigation.gotoGetStartedPage(Navigation.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:132)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:10:33.394 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+15:10:33.394 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:10:33.624 Plugin [Html Report] with pid [4424] has exited
+15:10:33.828 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:10:33.828 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:10:33.828 
+Total time taken: 25.399s
+15:11:51.270 Checking updates...
+15:12:01.396 # Getting started with Gauge
+15:12:01.399 ## Get Started
+15:12:01.401 * Navigate To "http://getgauge.io"
+15:12:18.253 * Go to Gauge Get Started Page
+15:12:18.879 
+Failed Step: Go to Gauge Get Started Page
+15:12:18.880 Specification: specs\01 Get started.spec:8
+15:12:18.880 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Get Stared"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information); duration or timeout: 43 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+15:12:18.880 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:147)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:113)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:415)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:200)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:225)
+org.openqa.selenium.By$ByLinkText.findElement(By.java:235)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:192)
+driver.Navigation.gotoGetStartedPage(Navigation.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:132)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:12:20.377 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+15:12:20.377 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:12:20.488 Plugin [Html Report] with pid [2076] has exited
+15:12:20.711 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:12:20.711 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:12:20.711 
+Total time taken: 25.252s
+15:48:18.790 Checking updates...
+15:48:28.141 # Getting started with Gauge
+15:48:28.186 ## Get Started
+15:48:28.189 * Navigate To "http://getgauge.io"
+15:48:49.178 * Go to Gauge Get Started Page
+15:48:50.015 
+Failed Step: Go to Gauge Get Started Page
+15:48:50.015 Specification: specs\01 Get started.spec:8
+15:48:50.015 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Get Stared"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information); duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+15:48:50.015 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:147)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:113)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:415)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:200)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:225)
+org.openqa.selenium.By$ByLinkText.findElement(By.java:235)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:192)
+driver.Navigation.gotoGetStartedPage(Navigation.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:132)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:48:51.572 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+15:48:51.572 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:48:51.846 Plugin [Html Report] with pid [4632] has exited
+15:48:52.046 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:48:52.046 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:48:52.046 
+Total time taken: 29.283s
+16:08:47.998 Checking updates...
+16:09:05.470 # Getting started with Gauge
+16:09:05.472 ## Get Started
+16:09:05.474 * Navigate To "http://getgauge.io"
+16:09:27.131 * Go to Gauge Get Started Page
+16:09:30.626 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+16:09:30.626 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:09:30.932 Plugin [Html Report] with pid [5248] has exited
+16:09:31.132 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:09:31.132 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:09:31.132 
+Total time taken: 40.375s
+16:10:07.682 Checking updates...
+16:10:17.988 # Getting started with Gauge
+16:10:17.992 ## Get Started
+16:10:17.994 * Navigate To "http://getgauge.io"
+16:10:26.161 * Go to Gauge Get Started Page
+16:10:28.481 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+16:10:28.481 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:10:28.685 Plugin [Html Report] with pid [2452] has exited
+16:10:28.885 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:10:28.885 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:10:28.885 
+Total time taken: 17.039s
+16:13:40.287 Checking updates...
+16:13:50.075 # Getting started with Gauge
+16:13:50.078 ## Get Started
+16:13:50.080 * Navigate To "http://getgauge.io"
+16:13:57.998 * Go to Gauge Get Started Page
+16:14:00.838 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+16:14:00.838 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:14:00.942 Plugin [Html Report] with pid [4980] has exited
+16:14:01.148 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:14:01.148 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:14:01.148 
+Total time taken: 17.713s
+16:18:01.614 Checking updates...
+16:18:04.924 # Getting started with Gauge
+16:18:04.924 ## Get Started
+16:18:04.927 * Navigate To "http://getgauge.io"
+16:18:19.048 * Go to Gauge Get Started Page
+16:18:22.111 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+16:18:22.111 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:18:22.214 Plugin [Html Report] with pid [5096] has exited
+16:18:22.414 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:18:22.414 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:18:22.414 
+Total time taken: 26.207s
+16:32:50.629 Checking updates...
+16:33:02.314 # Getting started with Gauge
+16:33:02.317 ## Get Started
+16:33:02.319 * Navigate To "http://getgauge.io"
+16:33:11.026 * Go to Gauge Get Started Page
+16:33:14.306 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+16:33:14.306 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:33:14.808 Plugin [Html Report] with pid [6224] has exited
+16:33:15.109 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:33:15.109 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:33:15.131 
+Total time taken: 19.554s
+16:34:12.203 Checking updates...
+16:34:31.617 # Getting started with Gauge
+16:34:31.626 ## Get Started
+16:34:31.630 * Navigate To "http://getgauge.io"
+16:34:37.945 * Go to Gauge Get Started Page
+16:34:40.574 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+16:34:40.574 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:34:40.676 Plugin [Html Report] with pid [5324] has exited
+16:34:40.876 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:34:40.876 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:34:40.876 
+Total time taken: 24.314s
+16:35:21.453 Checking updates...
+16:35:34.938 # Getting started with Gauge
+16:35:34.953 ## Get Started
+16:35:34.955 * Navigate To "http://getgauge.io"
+16:35:40.057 * Go to Gauge Get Started Page
+16:35:42.438 Error Message: org.openqa.selenium.WebDriverException: Session ID may not be null
+Build info: version: '2.8.0', revision: '14056', time: '2011-10-06 15:53:48'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+16:35:42.438 Stacktrace: 
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.get(HttpCommandExecutor.java:608)
+org.openqa.selenium.remote.HttpCommandExecutor$CommandInfo.getMethod(HttpCommandExecutor.java:592)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:349)
+org.openqa.selenium.chrome.ChromeCommandExecutor.execute(ChromeCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:395)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:419)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:287)
+driver.DriverFactory.TearDown(DriverFactory.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:35:42.545 Plugin [Html Report] with pid [5720] has exited
+16:35:42.746 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:35:42.746 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:35:42.746 
+Total time taken: 16.839s
+16:36:30.450 Checking updates...
+16:36:39.884 # Getting started with Gauge
+16:36:39.887 ## Get Started
+16:36:39.890 * Navigate To "http://getgauge.io"
+16:36:44.803 * Go to Gauge Get Started Page
+16:36:46.796 Plugin [Html Report] with pid [5724] has exited
+16:36:46.896 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:36:46.896 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:36:46.896 
+Total time taken: 12.157s
+16:39:48.138 Checking updates...
+16:39:58.586 # Getting started with Gauge
+16:39:58.588 ## Get Started
+16:39:58.591 * Navigate To "http://getgauge.io"
+16:40:10.261 * Go to Gauge Get Started Page
+16:40:13.099 Plugin [Html Report] with pid [3184] has exited
+16:40:13.200 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:40:13.200 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:40:13.200 
+Total time taken: 20.815s
+16:41:56.406 Checking updates...
+16:42:06.067 # Getting started with Gauge
+16:42:06.067 ## Get Started
+16:42:06.070 * Navigate To "http://getgauge.io"
+16:42:11.870 * Go to Gauge Get Started Page
+16:42:13.857 Plugin [Html Report] with pid [2492] has exited
+16:42:13.957 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:42:13.957 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:42:13.957 
+Total time taken: 13.39s
+16:43:41.480 Checking updates...
+16:43:49.461 # Getting started with Gauge
+16:43:49.463 ## Get Started
+16:43:49.465 * Navigate To "http://getgauge.io"
+16:43:55.951 * Go to Gauge Get Started Page
+16:43:58.057 Plugin [Html Report] with pid [7016] has exited
+16:43:58.257 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:43:58.257 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:43:58.257 
+Total time taken: 14.389s
+16:46:42.982 Checking updates...
+16:46:53.889 # Getting started with Gauge
+16:46:53.893 ## Get Started
+16:46:53.894 * Navigate To "http://getgauge.io"
+16:47:11.932 Plugin [Html Report] with pid [4480] has exited
+16:47:12.032 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:47:12.032 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:47:12.032 
+Total time taken: 24.558s
+16:48:03.049 Checking updates...
+16:48:08.780 # Getting started with Gauge
+16:48:08.782 ## Get Started
+16:48:08.785 * Navigate To "http://getgauge.io"
+16:49:01.560 Plugin [Html Report] with pid [6956] has exited
+16:49:01.660 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:49:01.660 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:49:01.660 
+Total time taken: 58.649s
+16:49:27.656 Checking updates...
+16:49:38.586 # Getting started with Gauge
+16:49:38.589 ## Get Started
+16:49:38.592 * Navigate To "http://getgauge.io"
+16:50:09.980 Plugin [Html Report] with pid [4404] has exited
+16:50:10.380 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:50:10.380 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:50:10.380 
+Total time taken: 37.909s
+19:00:17.310 Got a kill message. Killing runner.
+19:00:21.331 Killing runner with PID:5652 forcefully

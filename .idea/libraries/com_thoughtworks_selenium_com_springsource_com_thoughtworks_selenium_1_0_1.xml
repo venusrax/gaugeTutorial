@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.thoughtworks.selenium:com.springsource.com.thoughtworks.selenium:1.0.1" type="repository">
+    <properties maven-id="com.thoughtworks.selenium:com.springsource.com.thoughtworks.selenium:1.0.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.com.thoughtworks.selenium-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.junit-3.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
